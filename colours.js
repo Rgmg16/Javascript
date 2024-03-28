@@ -1,7 +1,7 @@
 let colours=["red","green","pink","yellow","purple","blue"];
 console.log(colours[1]);
 
-colours.push("yellow");
+colours.push("grey");
 console.log(colours);
 colours.shift();
 console.log(colours);
