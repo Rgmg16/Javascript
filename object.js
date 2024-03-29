@@ -3,7 +3,7 @@ const citizen={
     Age: 21,
     Gender: "Male",
     Height: 160,
-    Nmae: "Jeff Owino"
+    Name: "Jeff Owino"
 }
 console.log(citizen);
 
