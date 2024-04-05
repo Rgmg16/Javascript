@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchrnous programming</title>
+</head>
+
+<body>
+    <button type="button" id="btn">Click me</button>
+    
+    <script>
+        console.log("Start here");
+        console.log("Then get here");
+        document.getElementById("btn").addEventListener("click", function () {
+            console.log("Button clicked!");
+        });
+        console.log("Finish here");
+    </script>
+</body>
+
+</html>
